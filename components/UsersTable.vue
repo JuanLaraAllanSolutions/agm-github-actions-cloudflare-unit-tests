@@ -58,7 +58,7 @@ const people = [
   { name: 'Isabella Johnson', title: 'Product Designer', email: 'isabella.johnson@example.com', role: 'Member' },
   { name: 'Sophia Williams', title: 'Project Manager', email: 'sophia.williams@example.com', role: 'Admin' },
   { name: 'Jacob Moore', title: 'QA Analyst', email: 'jacob.moore@example.com', role: 'Contributor' },
-  { name: 'Ava Davis', title: 'Front-end Developer', email: 'ava.davis@example.com', role: 'Admin' },
+  { name: 'Ava Davisntest', title: 'Front-end Developer', email: 'ava.davis@example.com', role: 'Admin' },
   { name: 'William Garcia', title: 'Back-end Developer', email: 'william.garcia@example.com', role: 'Member' },
   { name: 'Mia Rodriguez', title: 'Product Designer', email: 'mia.rodriguez@example.com', role: 'Contributor' },
   { name: 'James Wilson', title: 'Project Manager', email: 'james.wilson@example.com', role: 'Admin' },
