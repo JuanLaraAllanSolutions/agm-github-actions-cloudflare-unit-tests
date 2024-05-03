@@ -3,8 +3,8 @@ name: AGM 24
 on: 
     push:
         branches:
-        - master
-        - unit test
+          - master
+          - unit-test
 
 jobs:
     dev-environment:
