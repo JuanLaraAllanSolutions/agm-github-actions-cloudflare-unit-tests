@@ -25,6 +25,8 @@ jobs:
             run: yarn test
     pro-environment:
         name: Pro Environment
+        if: always()
+        needs: dev-environment
         runs-on: ubuntu-latest
         environment: production
         steps:
