@@ -12,21 +12,21 @@ jobs:
         runs-on: ubuntu-latest
         environment: develop
         steps:
-        - name: Print environment variables
-          run: echo "Environment ${{ vars.ENVIRONMENT }}"
-        - uses: actions/checkout@v4
-        - name: Set up node.js
-          uses: actions/node@v4
-          with:
-            node: 21
-        - name: Install dependencies
-          run: yarn
-        - name: Run unit tests
-          run: yarn test
+          - name: Print environment variables
+            run: echo "Environment ${{ vars.ENVIRONMENT }}"
+          - uses: actions/checkout@v4
+          - name: Set up node.js
+            uses: actions/node@v4
+            with:
+              node: 21
+          - name: Install dependencies
+            run: yarn
+          - name: Run unit tests
+            run: yarn test
     pro-environment:
         name: Pro Environment
         runs-on: ubuntu-latest
         environment: production
         steps:
-        - name: Print environment variables
-          run: echo "Environment ${{ vars.ENVIRONMENT }}"
+          - name: Print environment variables
+            run: echo "Environment ${{ vars.ENVIRONMENT }}"
